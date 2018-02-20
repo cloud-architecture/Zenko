@@ -19,7 +19,8 @@ spec:
         - name: {{ .Chart.Name }}
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
-          args: ["npm", "run", "queue_processor"] 
+          command: ["/usr/local/bin/npm"]
+          args: ["run", "queue_processor", "zenko"] 
           env:
             - name: ZOOKEEPER_AUTO_CREATE_NAMESPACE
               value: "1"
