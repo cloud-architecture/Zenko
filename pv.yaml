@@ -1,0 +1,533 @@
+kind: PersistentVolume
+
+apiVersion: v1
+
+metadata:
+
+  name: pv-0
+
+  labels:
+
+    type: local
+
+spec:
+
+  capacity:
+
+    storage: 10Gi
+
+  persistentVolumeReclaimPolicy: Delete
+
+  accessModes:
+
+    - ReadWriteOnce
+
+  hostPath:
+
+    path: "/opt/data0"
+
+
+
+---
+
+kind: PersistentVolume
+
+apiVersion: v1
+
+metadata:
+
+  name: pv-1
+
+  labels:
+
+    type: local
+
+spec:
+
+  capacity:
+
+    storage: 10Gi
+
+  persistentVolumeReclaimPolicy: Delete
+
+  accessModes:
+
+    - ReadWriteOnce
+
+  hostPath:
+
+    path: "/opt/data1"
+
+
+
+---
+
+kind: PersistentVolume
+
+apiVersion: v1
+
+metadata:
+
+  name: pv-2
+
+  labels:
+
+    type: local
+
+spec:
+
+  capacity:
+
+    storage: 10Gi
+
+  persistentVolumeReclaimPolicy: Delete
+
+  accessModes:
+
+    - ReadWriteOnce
+
+  hostPath:
+
+    path: "/opt/data2"
+
+
+
+---
+
+kind: PersistentVolume
+
+apiVersion: v1
+
+metadata:
+
+  name: pv-3
+
+  labels:
+
+    type: local
+
+spec:
+
+  capacity:
+
+    storage: 10Gi
+
+  persistentVolumeReclaimPolicy: Delete
+
+  accessModes:
+
+    - ReadWriteOnce
+
+  hostPath:
+
+    path: "/opt/data3"
+
+
+
+---
+
+kind: PersistentVolume
+
+apiVersion: v1
+
+metadata:
+
+  name: pv-4
+
+  labels:
+
+    type: local
+
+spec:
+
+  capacity:
+
+    storage: 10Gi
+
+  persistentVolumeReclaimPolicy: Delete
+
+  accessModes:
+
+    - ReadWriteOnce
+
+  hostPath:
+
+    path: "/opt/data4"
+
+
+
+---
+
+kind: PersistentVolume
+
+apiVersion: v1
+
+metadata:
+
+  name: pv-5
+
+  labels:
+
+    type: local
+
+spec:
+
+  capacity:
+
+    storage: 10Gi
+
+  persistentVolumeReclaimPolicy: Delete
+
+  accessModes:
+
+    - ReadWriteOnce
+
+  hostPath:
+
+    path: "/opt/data5"
+
+
+
+---
+
+kind: PersistentVolume
+
+apiVersion: v1
+
+metadata:
+
+  name: pv-6
+
+  labels:
+
+    type: local
+
+spec:
+
+  capacity:
+
+    storage: 10Gi
+
+  persistentVolumeReclaimPolicy: Delete
+
+  accessModes:
+
+    - ReadWriteMany
+
+  hostPath:
+
+    path: "/opt/data6"
+
+
+
+---
+
+kind: PersistentVolume
+
+apiVersion: v1
+
+metadata:
+
+  name: pv-7
+
+  labels:
+
+    type: local
+
+spec:
+
+  capacity:
+
+    storage: 50Gi
+
+  persistentVolumeReclaimPolicy: Delete
+
+  accessModes:
+
+    - ReadWriteOnce
+
+  hostPath:
+
+    path: "/opt/data7"
+
+
+
+---
+
+kind: PersistentVolume
+
+apiVersion: v1
+
+metadata:
+
+  name: pv-8
+
+  labels:
+
+    type: local
+
+spec:
+
+  capacity:
+
+    storage: 10Gi
+
+  persistentVolumeReclaimPolicy: Delete
+
+  accessModes:
+
+    - ReadWriteOnce
+
+  hostPath:
+
+    path: "/opt/data8"
+
+
+
+---
+
+kind: PersistentVolume
+
+apiVersion: v1
+
+metadata:
+
+  name: pv-9
+
+  labels:
+
+    type: local
+
+spec:
+
+  capacity:
+
+    storage: 10Gi
+
+  persistentVolumeReclaimPolicy: Delete
+
+  accessModes:
+
+    - ReadWriteOnce
+
+  hostPath:
+
+    path: "/opt/data9"
+
+---
+
+kind: PersistentVolume
+
+apiVersion: v1
+
+metadata:
+
+  name: pv-10
+
+  labels:
+
+    type: local
+
+spec:
+
+  capacity:
+
+    storage: 10Gi
+
+  persistentVolumeReclaimPolicy: Delete
+
+  accessModes:
+
+    - ReadWriteMany
+
+  hostPath:
+
+    path: "/opt/data10"
+
+
+
+---
+
+kind: PersistentVolume
+
+apiVersion: v1
+
+metadata:
+
+  name: pv-11
+
+  labels:
+
+    type: local
+
+spec:
+
+  capacity:
+
+    storage: 50Gi
+
+  persistentVolumeReclaimPolicy: Delete
+
+  accessModes:
+
+    - ReadWriteOnce
+
+  hostPath:
+
+    path: "/opt/data11"
+
+
+
+---
+
+kind: PersistentVolume
+
+apiVersion: v1
+
+metadata:
+
+  name: pv-12
+
+  labels:
+
+    type: local
+
+spec:
+
+  capacity:
+
+    storage: 10Gi
+
+  persistentVolumeReclaimPolicy: Delete
+
+  accessModes:
+
+    - ReadWriteOnce
+
+  hostPath:
+
+    path: "/opt/data12"
+
+
+
+---
+
+kind: PersistentVolume
+
+apiVersion: v1
+
+metadata:
+
+  name: pv-13
+
+  labels:
+
+    type: local
+
+spec:
+
+  capacity:
+
+    storage: 10Gi
+
+  persistentVolumeReclaimPolicy: Delete
+
+  accessModes:
+
+    - ReadWriteOnce
+
+  hostPath:
+
+    path: "/opt/data13"
+
+
+---
+
+kind: PersistentVolume
+
+apiVersion: v1
+
+metadata:
+
+  name: pv-20
+
+  labels:
+
+    type: local
+
+spec:
+
+  capacity:
+
+    storage: 50Gi
+
+  persistentVolumeReclaimPolicy: Delete
+
+  accessModes:
+
+    - ReadWriteOnce
+
+  hostPath:
+
+    path: "/opt/data20"
+
+---
+
+kind: PersistentVolume
+
+apiVersion: v1
+
+metadata:
+
+  name: pv-21
+
+  labels:
+
+    type: local
+
+spec:
+
+  capacity:
+
+    storage: 50Gi
+
+  persistentVolumeReclaimPolicy: Delete
+
+  accessModes:
+
+    - ReadWriteOnce
+
+  hostPath:
+
+    path: "/opt/data21"
+
+---
+
+kind: PersistentVolume
+
+apiVersion: v1
+
+metadata:
+
+  name: pv-22
+
+  labels:
+
+    type: local
+
+spec:
+
+  capacity:
+
+    storage: 50Gi
+
+  persistentVolumeReclaimPolicy: Delete
+
+  accessModes:
+
+    - ReadWriteOnce
+
+  hostPath:
+
+    path: "/opt/data22"
+
