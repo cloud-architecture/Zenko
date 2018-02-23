@@ -22,7 +22,7 @@ cloudserver-front:
     enabled: false
   # When 'orbit.enabled' is 'true', these aren't used, please use
   # https://zenko.io to manage your deployment
-  endpoint: zenko.local
+  endpoint: zenko-cloudserver-front
   credentials:
     keyId: deployment-specific-access-key
     secretKey: deployment-specific-secret-key
