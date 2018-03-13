@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: scality/backbeat
-  tag: jay-mongo-test-default-port
+  repository: zenko/backbeat
+  tag: 0.1.3
   pullPolicy: Always
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious
